@@ -1,6 +1,6 @@
 _site
 .sass-cache
+.jekyll-metadata
+.vscode
 .idea
-resumecard.iml
-/*.iml
-*.JPG
+.DS_Store
