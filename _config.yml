@@ -1,9 +1,9 @@
 # Site settings
-title: Liang Ke Jin
-description: Liang Ke Jin
+title: Bu Wei
+description: Oracle DBA 通过此博客，共同努力，共同学习。
 favicon: /assets/img/avatar.JPG
 baseurl:
-url: https://liungkejin.github.io
+url: buwei98.github.io
 rss_url:
 
 # Build settings
