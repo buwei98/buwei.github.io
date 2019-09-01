@@ -49,8 +49,6 @@ author:
 menu:
   - title:             Technology blog
     url:               /example/
-  - title:             essay
-    url:               /essay/
   - title:             About
     url:               /about/
 
