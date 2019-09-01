@@ -40,17 +40,17 @@ logo:                  /assets/icons/icon.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                <wei> <Bu>
+  email:               <pkweibu@163.com>
   # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
 # Add links to the sidebar.
 menu:
-  - title:             Example
+  - title:             Technology blog
     url:               /example/
-  - title:             Documentation
-    url:               https://hydejack.com/docs/
+  - title:             essay
+    url:               /essay/
   - title:             About
     url:               /about/
 
