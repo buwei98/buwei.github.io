@@ -7,7 +7,8 @@
 # 井号后面的文字是说明文档，不会被程序读取。
 name: 卜维的技术博客
 # 描述/签名
-description: 天道酬勤，keep going。
+description: 天道酬勤，keep going
+
 #
 # 下面的设定都是可选的
 #
@@ -16,7 +17,7 @@ description: 天道酬勤，keep going。
 avatar: https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/logo.png
 
 # 你的favicon（出现在浏览器tab上）图片URL，建议使用较小(64px × 64px)的图片
-favicon: https://i.loli.net/2019/09/03/13wSCZs2th6jiWl.png
+favicon: https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/favicon.png
 
 
 # 菜单中的按钮
@@ -55,7 +56,7 @@ footer-links:
   youtube: # channel/<your_long_string> or user/<user-name>
 
 # 站点页脚的文字
-footer-text: Copyright (c) 2019 来自卜维
+footer-text: Copyright (c) 2019 来自中世界
 
 # 评论，注意，请不要同时添加多种不同的评论区
 
