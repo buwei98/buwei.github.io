@@ -14,4 +14,4 @@ Hey，我是**卜维**，一只大四的 Oracle DBA，现在北京学习与工�
 
 今后我会在这里和CDNS更新我的文章！
 
-cdns博客：[点击这里查看CDNS博客](https://blog.csdn.net/weixin_37423880）
+cdns博客：[点击这里查看CDNS博客](https://blog.csdn.net/weixin_37423880)
