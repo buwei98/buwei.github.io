@@ -1,0 +1,35 @@
+﻿# oracle archive Architecture (instance and database)
+# 第一章 实例与数据库 
+# oracle server 
+![图一](https://img-blog.csdnimg.cn/20190903135138118.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNzQyMzg4MA==,size_16,color_FFFFFF,t_70)
+ 图一
+![图二](https://img-blog.csdnimg.cn/20190903135221555.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNzQyMzg4MA==,size_16,color_FFFFFF,t_70)
+图二
+图一 为简化版的oracle 架构 ，而 图二 为11g官方文档给出的架构图。
+下面的文章张我们仔细来说一下，图一中每个区域使用来干什么。
+****
+## 1Oracle server
+什么是ORACLE server？  
+一个Oracle 服务器包含一个实例和一个数据库。
+**数据库** 是存放在系统文件上的文件，*静态的*
+**实例** 是内存区域和后台进程，*动态的*。
+****
+### 1.1 database
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190903140513287.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNzQyMzg4MA==,size_16,color_FFFFFF,t_70)
+ database 主要由 data files , control files, redo log files 构成 .
+`select name from v$datafile;`
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190903182745843.png)
+`select name from v$controlfile;`
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190903182803499.png)
+` select member from v$logfile; `
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190903182823368.png)
+`[oracle@buwei PROD1]$ cd /u01/app/oracle/oradata/PROD1/`
+`[oracle@buwei PROD1]$ ll`
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190903183030711.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNzQyMzg4MA==,size_16,color_FFFFFF,t_70)
+### 1.2 instance
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190903183328418.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNzQyMzg4MA==,size_16,color_FFFFFF,t_70)
+instance(实例)=SGA（共享全局区）+backgroup processes（后台进程）
+
+在操作系统中可以查看实例对应的后台进程。
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190903183950386.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNzQyMzg4MA==,size_16,color_FFFFFF,t_70)
