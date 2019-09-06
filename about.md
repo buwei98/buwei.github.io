@@ -1,42 +1,17 @@
----
+﻿---
 layout: page
-title: 关于我 
+title: 关于
+permalink: /about/
 ---
 
-一个 iOS SDK 开发者，喜欢研究一些新技术。
-<p>
-平时喜欢整理个人博客，逛逛技术论坛。
-<p>
-了解一些 前端 基本概念和 Python 的简单用法。
+Hey，我是**卜维**，一只大四的 Oracle DBA，现在北京学习与工作。
 
-<p>
+工作、学习之余，我还是一个运动爱好者。热爱音乐，以后有机会吧自己翻唱的歌曲放到这个博客。嘻嘻~
 
-<h3> 我们的博客 </h3>  
+这是我的利用 GitHub Pages 与 Jekyll 搭建的 个人博客。模板参考`FromEndWorld/LOFFER`。
 
-<p>
+有什么问题请在左下角的邮箱或者微博联系我。
 
-是的，这个博客是我们大家的，目前已经有很大一部分人在使用我的博客模板了，我也很高兴大家使用我的模板。
+今后我会在这里和CDNS更新我的文章！
 
-<p>
-
-如果你想搭建一个跟我一样的博客，可以看我的 
-<a href="/2016/10/jekyll_tutorials1/"> Jekyll 搭建个人博客 </a>
-教程
-
-<p>
-
-有关于博客主题的建议和意见都可以提给我，让我们一起来打造一个精美的主题吧~ 
-
-<p> 
-
-博客源码在 <a target="_blank" href='https://github.com/leopardpan/leopardpan.github.io/'>Github</a> 上，你的 Star 是我更新的动力，谢谢~
-
-<p> 
-
-<p> 
-
-<p> 
-
-
-{% include comments.html %}
-
+CSDN博客：[点击这里查看CSDN博客](http://blog.csdn.net/weixin_37423880)
